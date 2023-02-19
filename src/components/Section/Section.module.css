@@ -1,0 +1,14 @@
+.section {
+        display: flex;
+            flex-direction: column;
+            row-gap: 15px;
+            align-items: center;
+}
+
+.title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: rgba(22, 116, 116, 0.754);
+    font-weight: bold;
+    letter-spacing: 1px;
+}

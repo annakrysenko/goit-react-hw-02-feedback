@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 200px;
+    color: rgba(1, 82, 82, 0.561);
+}
+
+
+.wrap:last-child{
+    margin-top: 10px;
+}
+
+.wrap {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    word-wrap: none;
+}
+.span{
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid rgba(1, 82, 82, 0.308);
+    margin: 0 5px;
+    /* background-color: aqua; */
+}
