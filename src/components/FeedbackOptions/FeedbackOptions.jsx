@@ -1,6 +1,8 @@
 import { Component } from 'react';
 import styles from './FeedbackOptions.module.css';
 
+import PropTypes from 'prop-types';
+
 export class FeedbackOption extends Component {
   render() {
     return (
@@ -33,3 +35,6 @@ export class FeedbackOption extends Component {
     );
   }
 }
+FeedbackOption.propTypes = {
+  onLeaveFeedback: PropTypes.func.isRequired,
+};
